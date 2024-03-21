@@ -13,4 +13,4 @@ Made this via pixabay api tried cloning some parts fully responsive
 ![image](https://github.com/isseidevil/weather-app/assets/149817970/0cf52eed-707b-40c5-b51f-eca35be4f8ae) - footer
 
 # Live Demo
-sdxd-pixabayclone.netlify.app
+https://sdxd-pixabayclone.netlify.app/
