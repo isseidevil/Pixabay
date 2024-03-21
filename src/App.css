@@ -1,0 +1,149 @@
+.navi{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://cdn.magicdecor.in/com/2023/10/28163840/Blooming-Cherry-Sakura-Trees-Wallpaper-for-Home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.title a{
+    color: white;
+    text-decoration: none;
+}
+
+#t-left{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#t-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#t-right button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00ab6b;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#t-right #t-but{
+    background: hsla(0, 0%, 100%, .1);
+    color: #fff;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+}
+.txt{
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    height: 400px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(25, 27, 38, .32), rgba(25, 27, 38, .72));
+}
+.searching{
+    width: 70%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+.img-desig{
+    padding: 10px;
+    width: 250px;
+    display: inline-grid;
+    height: 250px;
+    cursor: pointer;
+}
+.img-desig:hover{
+    background-blend-mode: color-burn;
+}
+#img-s{
+    width: 100%;
+    height: 100%;
+}
+
+.foot{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    margin-top: 10px;
+}
+.main{
+    width: 50%;
+    padding-right: 75px;
+}
+.main p{
+    color: #656f79;
+}
+
+.site{
+    background: white;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+.link{
+    width: 50%;
+    flex: initial;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.group span{
+    font-weight: 600;
+
+}
+
+.group a{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    gap: 8px;
+    text-decoration: none;
+    color: #656f79;
+    padding-top: 12px;
+
+}
+
+.claim{
+    border-top: 1px solid black;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #656f79;
+}
+
+
